@@ -34,7 +34,7 @@ robustness to perturbations and generalization to out-of-distribution unseen con
 
 * Under review in Nature Methods.
 
-## Optimal Feedback Control (OFC) to capture key features of motor cortical neural population dynamics| PyTorch, JAX
+## Optimal Feedback Control (OFC) to capture key features of motor cortical neural population dynamics | PyTorch, JAX
 
 * Adapted OFC algorithms (iLQR) to formulate recurrent-network-based MC models for locally optimal feedback control of
 anatomically accurate musculoskeletal models.
@@ -73,7 +73,7 @@ control in OFC framework.
 
 * Publication expected before graduation.
 
-Graph Neural Networks (GNNs) for Physics Simulation | PyTorch Geometric, MuJoCo
+## Graph Neural Networks (GNNs) for Physics Simulation | PyTorch Geometric, MuJoCo
 
 * Implemented task- and musculoskeletal-dynamics- specific internal forward models using GNNs.
 
