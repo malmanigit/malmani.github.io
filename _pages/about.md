@@ -1,3 +1,12 @@
+---
+permalink: /
+title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 I am a final year PhD student at Yale University. I am interested in sensorimotor control, neural population dynamics, optimal feedback control and deep reinforcement learning.
 
 ** Publications and Conferences **
