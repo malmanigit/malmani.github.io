@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
 author_profile: true
 redirect_from: 
   - /about/
@@ -9,7 +8,7 @@ redirect_from:
 
 I am a final year PhD student at Yale University. I am interested in sensorimotor control, neural population dynamics, optimal feedback control and deep reinforcement learning.
 
-** Publications and Conferences **
+"Publications and Conferences"
 
 Muhammad Noman Almani, John Lazzari, Jeff Walker, Shreya Saxena. “Embodied sensorimotor control:
 computational modeling of the neural control of movement”, Annual Review of Biomedical Engineering, 2026
