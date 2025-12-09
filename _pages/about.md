@@ -8,7 +8,81 @@ redirect_from:
 
 I am a final year PhD student at Yale University. I am interested in sensorimotor control, neural population dynamics, optimal feedback control and deep reinforcement learning.
 
-"Publications and Conferences"
+# Current Projects
+
+muSim | Python, PyTorch, MuJoCo, OpenSim, MATLAB
+
+∗ Developed a modular computational framework to elucidate the neural control of movement through anatomically
+accurate musculoskeletal modeling.
+
+∗ Adapted advanced deep reinforcement learning (DRL) algorithms with biologically plausible neural regularizations to
+capture neural population dynamics.
+
+∗ Trained recurrent neural network (RNN)-based models of motor cortex (MC) for feedback control of macaque (39
+muscles) and mouse (18 muscles) forelimb musculoskeletal models on diverse motor tasks.
+
+∗ RNN-models formulated using muSim captured complex/elaborate signatures and properties of motor cortical neural
+population dynamics that can not be captured using existing models.
+
+∗ Devised simultaneous goal- and data- driven modeling approaches to enable generalizable single-unit-level decoding of
+motor cortical activity.
+
+∗ RNN-models captured elaborate biologically interpretable properties in kinematic, neural and sensory subspaces, such as
+robustness to perturbations and generalization to out-of-distribution unseen conditions.
+
+∗ Validated the utility of perturbation experiments to disentangle the role of inputs in shaping neural population dynamics.
+
+* Under review in Nature Methods.
+
+Optimal Feedback Control (OFC) to capture key features of motor cortical neural population dynamics| PyTorch, JAX
+
+∗ Adapted OFC algorithms (iLQR) to formulate recurrent-network-based MC models for locally optimal feedback control of
+anatomically accurate musculoskeletal models.
+
+∗ Showed that strong time-varying input sensory features, such as proprioception, are essential to capture
+complex/elaborate features of MC neural population dynamics.
+
+∗ Utilized OFC theory to signify the importance of strong non-linear synaptic connections of MC to sensory processing
+regions in shaping its neural population dynamics.
+
+∗ Mathematically elaborated the connection of OFC framework with DRL framework.
+
+∗ Publication in progress.
+
+muSim with internal forward models to investigate motor learning, control, consolidation and generalization
+
+∗ Augmented muSim with predictive modeling, i.e., internal forward models of musculoskeletal and task dynamics.
+
+∗ Validated the significance of predictive modeling in enabling faster training on complex motor tasks.
+
+∗ Achieved significantly better generalization to unseen conditions with predictive modeling.
+
+∗ Currently, investigating the signatures/properties of neural dynamics specific to internal forward models.
+
+∗ Publication in progress
+
+muSim and OFC to disentangle the role of feedback vs feedforward control in BCI settings
+
+∗ Modeled a target tracking motor task in brain-computer interface (BCI) setting using muSim.
+
+∗ Modeled the BCI task and formulated a recurrent-network-based MC model using OFC framework with internal forward
+model (observer framework).
+
+∗ Currently, working on disentangling the signatures of neural population dynamics specific to feedback vs feedforward
+control in OFC framework.
+
+∗ Publication expected before graduation.
+
+Graph Neural Networks (GNNs) for Physics Simulation | PyTorch Geometric, MuJoCo
+
+∗ Implemented task- and musculoskeletal-dynamics- specific internal forward models using GNNs.
+
+∗ Trained the developed sensorimotor loop using sensory feedback prediction from GNN-based internal forward models.
+
+∗ Devised a new sparse graph attention mechanism robust to partial state feedback for modeling physics simulations
+incorporating musculoskeletal models.
+
+# Publications and Conferences
 
 Muhammad Noman Almani, John Lazzari, Jeff Walker, Shreya Saxena. “Embodied sensorimotor control:
 computational modeling of the neural control of movement”, Annual Review of Biomedical Engineering, 2026
