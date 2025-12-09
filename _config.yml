@@ -24,13 +24,13 @@ repository               : "malmanigit/malmani.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Muhammad Noman Almani"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "PhD Candidate @ Yale University"
+  location         : "New Haven"
+  employer         : "Yale University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "muhammadnoman.almani@yale.edu" 
 
   # Academic websites
   academia         : # URL
